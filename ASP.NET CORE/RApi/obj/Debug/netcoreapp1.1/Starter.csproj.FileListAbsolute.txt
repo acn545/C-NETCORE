@@ -1,0 +1,10 @@
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\obj\Debug\netcoreapp1.1\Starter.csproj.CoreCompileInputs.cache
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\obj\Debug\netcoreapp1.1\Starter.AssemblyInfoInputs.cache
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\obj\Debug\netcoreapp1.1\Starter.AssemblyInfo.cs
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\bin\Debug\netcoreapp1.1\Starter.deps.json
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\bin\Debug\netcoreapp1.1\Starter.runtimeconfig.json
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\bin\Debug\netcoreapp1.1\Starter.runtimeconfig.dev.json
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\bin\Debug\netcoreapp1.1\Starter.dll
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\bin\Debug\netcoreapp1.1\Starter.pdb
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\obj\Debug\netcoreapp1.1\Starter.dll
+C:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\RApi\obj\Debug\netcoreapp1.1\Starter.pdb

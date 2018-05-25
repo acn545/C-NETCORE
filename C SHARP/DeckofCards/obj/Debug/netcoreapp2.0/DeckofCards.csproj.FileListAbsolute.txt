@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\bin\Debug\netcoreapp2.0\DeckofCards.deps.json
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\bin\Debug\netcoreapp2.0\DeckofCards.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\bin\Debug\netcoreapp2.0\DeckofCards.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\bin\Debug\netcoreapp2.0\DeckofCards.dll
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\bin\Debug\netcoreapp2.0\DeckofCards.pdb
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\obj\Debug\netcoreapp2.0\DeckofCards.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\obj\Debug\netcoreapp2.0\DeckofCards.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\obj\Debug\netcoreapp2.0\DeckofCards.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\obj\Debug\netcoreapp2.0\DeckofCards.dll
+c:\Users\antho\Documents\C#NETCORE\DeckofCards\obj\Debug\netcoreapp2.0\DeckofCards.pdb

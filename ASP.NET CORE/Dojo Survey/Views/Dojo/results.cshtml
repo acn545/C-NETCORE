@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dojo Survey</title>
+        <meta charset="utf=8">
+        <link rel="stylesheet" href="~/css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+           <h3> you successfully submitted the following information</h3>
+           <p>Name: @ViewBag.name</p>
+           <p>Favorite Language: @ViewBag.fav</p>
+           <p>Location: @ViewBag.loc</p>
+           <p>Comments: @ViewBag.com</p>
+           <form action="/" method="get">
+                <button>GO back</button>                
+           </form>
+        </div>
+    </body>
+</html>

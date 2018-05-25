@@ -1,0 +1,10 @@
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\bin\Debug\netcoreapp2.0\Fundamentals.deps.json
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\bin\Debug\netcoreapp2.0\Fundamentals.runtimeconfig.json
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\bin\Debug\netcoreapp2.0\Fundamentals.runtimeconfig.dev.json
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\bin\Debug\netcoreapp2.0\Fundamentals.dll
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\bin\Debug\netcoreapp2.0\Fundamentals.pdb
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\obj\Debug\netcoreapp2.0\Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\obj\Debug\netcoreapp2.0\Fundamentals.AssemblyInfoInputs.cache
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\obj\Debug\netcoreapp2.0\Fundamentals.AssemblyInfo.cs
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\obj\Debug\netcoreapp2.0\Fundamentals.dll
+C:\Users\antho\Documents\C#NETCORE\Fundamentals\obj\Debug\netcoreapp2.0\Fundamentals.pdb

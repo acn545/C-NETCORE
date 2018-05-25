@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+@using System;
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Current Time</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div id="time_box">
+            @{
+                DateTime CurrentTime = DateTime.Now;
+                var Date = CurrentTime.ToString("MMMM dd, yyyy"); 
+                var Time = CurrentTime.ToString("H:mm tt");
+            }
+            <h3>The current Time is: </h3>
+            <h4>@Date</h4>
+            <h4>@Time</h4>
+        </div>
+    </body>
+</html>

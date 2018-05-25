@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\bin\Debug\netcoreapp2.0\Passcode.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\bin\Debug\netcoreapp2.0\Passcode.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\bin\Debug\netcoreapp2.0\Passcode.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\bin\Debug\netcoreapp2.0\Passcode.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\bin\Debug\netcoreapp2.0\Passcode.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\obj\Debug\netcoreapp2.0\Passcode.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\obj\Debug\netcoreapp2.0\Passcode.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\obj\Debug\netcoreapp2.0\Passcode.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\obj\Debug\netcoreapp2.0\Passcode.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Passcode\obj\Debug\netcoreapp2.0\Passcode.pdb

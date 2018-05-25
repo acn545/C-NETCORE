@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\bin\Debug\netcoreapp2.0\SimpleCRUD.deps.json
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\bin\Debug\netcoreapp2.0\SimpleCRUD.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\bin\Debug\netcoreapp2.0\SimpleCRUD.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\bin\Debug\netcoreapp2.0\SimpleCRUD.dll
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\bin\Debug\netcoreapp2.0\SimpleCRUD.pdb
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\obj\Debug\netcoreapp2.0\SimpleCRUD.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\obj\Debug\netcoreapp2.0\SimpleCRUD.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\obj\Debug\netcoreapp2.0\SimpleCRUD.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\obj\Debug\netcoreapp2.0\SimpleCRUD.dll
+c:\Users\antho\Documents\C#NETCORE\SimpleCRUD\obj\Debug\netcoreapp2.0\SimpleCRUD.pdb

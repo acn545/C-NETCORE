@@ -1,0 +1,27 @@
+.wrapper{
+    max-width: 300px;
+    margin: auto;
+    background-color: tan;
+    padding-bottom: 100px;
+}
+#Nav{
+    background: linear-gradient(rgb(194, 194, 224), grey);
+    width: 300px;
+
+}
+a{
+    text-decoration: none;
+    padding-right: 35px;
+
+    padding-Left: 10px;
+}
+a:hover{
+    color: white;
+}
+#form{
+    width: 200px;
+    margin-Left: 30px;
+}
+button{
+    display: block;
+}

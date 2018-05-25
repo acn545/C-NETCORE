@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dojo Survey</title>
+        <meta charset="utf=8">
+        <link rel="stylesheet" href="~/css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form id ="form"action="/results" method="post">
+                <div class="section">
+                Your Name: <input type="text" name='name'>
+                </div>
+                <div class="section">
+                Dojo Location: <select name="location">
+                                        <option value="Seattle">Seattle</option>
+                                        <option value="Silicon Valley">Silicon Valley</option>
+                                        <option value="Chicago">Chicago</option>
+                                        <option value="San Jose">San Jose</option>
+                                        <option value="Tulsa">Tulsa</option>
+                                        <option value="Los Angeles">Los Angeles</option>
+                                        <option value="East Bay">East Bay</option>
+                                        <option value="Tysons Corner">Tysons Corner</option>
+                                    </select>
+                </div>
+                Favorite Language: <select name="favorite">
+                                        <option value="Java">Java</option>
+                                        <option value="JavaScript">JavaScript</option>
+                                        <option value="Python">Python</option>
+                                        <option value="C#">C#</option>
+                                        <option value="Ruby">Ruby</option>
+                                        <option value="PHP">PHP</option>
+                                    </select>
+                <p>Comments (optional): </p><textarea name="comment"rows=7 cols=25>Enter comments here</textarea>
+                <input id="button" type="Submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

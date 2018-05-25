@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\WNS\bin\Debug\netcoreapp2.0\WNS.deps.json
+c:\Users\antho\Documents\C#NETCORE\WNS\bin\Debug\netcoreapp2.0\WNS.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\WNS\bin\Debug\netcoreapp2.0\WNS.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\WNS\bin\Debug\netcoreapp2.0\WNS.dll
+c:\Users\antho\Documents\C#NETCORE\WNS\bin\Debug\netcoreapp2.0\WNS.pdb
+c:\Users\antho\Documents\C#NETCORE\WNS\obj\Debug\netcoreapp2.0\WNS.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\WNS\obj\Debug\netcoreapp2.0\WNS.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\WNS\obj\Debug\netcoreapp2.0\WNS.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\WNS\obj\Debug\netcoreapp2.0\WNS.dll
+c:\Users\antho\Documents\C#NETCORE\WNS\obj\Debug\netcoreapp2.0\WNS.pdb

@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.pdb

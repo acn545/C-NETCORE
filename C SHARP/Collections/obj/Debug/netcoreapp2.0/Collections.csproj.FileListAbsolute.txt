@@ -1,0 +1,10 @@
+C:\Users\antho\Documents\C#NETCORE\Collections\bin\Debug\netcoreapp2.0\Collections.deps.json
+C:\Users\antho\Documents\C#NETCORE\Collections\bin\Debug\netcoreapp2.0\Collections.runtimeconfig.json
+C:\Users\antho\Documents\C#NETCORE\Collections\bin\Debug\netcoreapp2.0\Collections.runtimeconfig.dev.json
+C:\Users\antho\Documents\C#NETCORE\Collections\bin\Debug\netcoreapp2.0\Collections.dll
+C:\Users\antho\Documents\C#NETCORE\Collections\bin\Debug\netcoreapp2.0\Collections.pdb
+C:\Users\antho\Documents\C#NETCORE\Collections\obj\Debug\netcoreapp2.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\antho\Documents\C#NETCORE\Collections\obj\Debug\netcoreapp2.0\Collections.AssemblyInfoInputs.cache
+C:\Users\antho\Documents\C#NETCORE\Collections\obj\Debug\netcoreapp2.0\Collections.AssemblyInfo.cs
+C:\Users\antho\Documents\C#NETCORE\Collections\obj\Debug\netcoreapp2.0\Collections.dll
+C:\Users\antho\Documents\C#NETCORE\Collections\obj\Debug\netcoreapp2.0\Collections.pdb

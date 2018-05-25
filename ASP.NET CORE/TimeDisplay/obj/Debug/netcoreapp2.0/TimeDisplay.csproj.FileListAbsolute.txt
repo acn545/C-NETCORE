@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.pdb
