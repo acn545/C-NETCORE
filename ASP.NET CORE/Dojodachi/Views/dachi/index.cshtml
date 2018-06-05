@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Dojo Dachi!</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="~/css/style.css">
+        <script>
+            $(document).ready(function(){
+
+                // back-end request
+                $.get("winlose", function(response){
+                    // Handle the response data
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <p>Fullness: @ViewBag.fullness</p>
+                <p>Happiness:  @ViewBag.happiness</p>
+                <p>Meals:  @ViewBag.feed</p>
+                <p>Energy:  @ViewBag.energy</p>
+            </div>
+            <div id="game_area">
+                <p>@ViewBag.action</p>
+            </div>
+            <div id="footer">
+                <form action="feed" method="get">
+                    <button id="feed">Feed</button>
+                </form>
+                <form action="play" method="get">
+                    <button id="play">Play</button>
+                </form>
+                <form action="work" method="get">
+                    <button id="work">Work</button>
+                </form>
+                <form action="sleep" method="get">
+                    <button id="sleep">Sleep</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

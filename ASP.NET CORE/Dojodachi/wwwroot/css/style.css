@@ -1,0 +1,23 @@
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+}
+#header{
+    width: 970px;
+    color: green;
+}
+#header p{
+    display: inline-block;
+}
+#game_area{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    
+}
+#footer{
+    width: 970px;
+}
+#footer form{
+    display: inline-block;
+}

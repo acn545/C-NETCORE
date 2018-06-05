@@ -1,0 +1,10 @@
+<h1>Here are the Awesome Quotes!</h1>
+
+
+@foreach(var quote in ViewBag.quotes)
+{
+    <p> " @quote["quote"] "</p>
+    <p>posted by: @quote["name"]</p>
+    <p>________________________________</p>
+    
+}

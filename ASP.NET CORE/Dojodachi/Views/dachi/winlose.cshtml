@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> @ViewBag.win </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="~/css/style.css">
+        <script>
+            $(document).ready(function(){
+
+                // back-end request
+                $.get("/getusers", function(response){
+                    // Handle the response data
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <p>Fullness: @ViewBag.fullness</p>
+                <p>Happiness:  @ViewBag.happiness</p>
+                <p>Meals:  @ViewBag.feed</p>
+                <p>Energy:  @ViewBag.energy</p>
+            </div>
+            <div id="game_area">
+                <p>@ViewBag.action</p>
+            </div>
+            <div id="footer">
+                <form action="reset" method="get">
+                    <button id="restart">Restart?</button>
+                </form>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
