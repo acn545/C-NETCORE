@@ -1,0 +1,50 @@
+
+<h1> Hello @ViewBag.name</h1>
+<p> your email is @ViewBag.email</p>
+
+@model TheWall.Models.messages
+<div class="form">
+<form asp-controller="Wall" asp-action="CreateMessage" method="post">
+    <label asp-for="message">Create a new message</label>
+    <input asp-for="message">
+    <button type="submit">Add Message</button>
+</form>
+</div>
+<div id="messages">
+    
+@foreach(var message in ViewBag.messages)
+{
+    <p>  @message["message"] </p>
+    foreach(var user in ViewBag.users){
+        if(@user["id"] == @message["user_id"] ){
+            <p> Posted By: @user["first_name"] @user["last_name"]</p>
+            <p> Posted at @message["created_at"]</p>
+        }
+    foreach(var comment in ViewBag.comments){
+        if(@comment["message_id"] == @message["id"]){
+           if(@user["id"] == @comment["user_id"] ){
+                <p>_____________________________________________</p>
+            <p> @comment["comment"]</p>
+            <p> Posted By: @user["first_name"] @user["last_name"]</p>
+            <p> Posted at: @comment["created_at"]</p>
+        }
+           
+        }
+    }
+    }
+    <p>________________________________</p>
+    <div class="form">
+    <form  action="CreateComment" method="post">
+        <label for="comment">Add a Comment: </label>
+        <input type="text" for="comment" name="comment">
+        <input type="hidden" value="@message["id"]" name="id">
+        
+        <button type="submit">Add Comment</button>
+    </form>
+</div>
+}
+
+
+</div>
+
+

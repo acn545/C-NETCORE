@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.pdb

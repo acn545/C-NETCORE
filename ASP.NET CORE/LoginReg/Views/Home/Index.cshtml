@@ -1,0 +1,31 @@
+﻿@model LoginReg.Models.User
+
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div id="register">
+    <h2>Please Register Below</h2>
+    <form asp-controller="Home" asp-action="register" method="post">
+        <label asp-for="first_name">First Name:</label>
+        <input asp-for="first_name">
+        <label asp-for="last_name">Last Name:</label>
+        <input asp-for="last_name">
+        <label asp-for="email">Email Address:</label>
+        <input asp-for="email">
+        <label asp-for="password">Password:</label>
+        <input asp-for="password">
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<div id="login">
+    <h2>Please Log in Below</h2>
+    <form asp-controller="Home" asp-action="login" method="post">
+        <label asp-for="email">Email Address:</label>
+        <input asp-for="email">
+        <label asp-for="password">Password:</label>
+        <input asp-for="password">
+        <button type="submit">Login</button>
+    </form>
+</div>

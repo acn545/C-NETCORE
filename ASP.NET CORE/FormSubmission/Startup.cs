@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace QuotingDojo
+namespace FormSubmission
 {
     public class Startup
     {
@@ -21,13 +21,14 @@ namespace QuotingDojo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
             services.AddSession();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseDeveloperExceptionPage();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -38,9 +39,9 @@ namespace QuotingDojo
             }
 
             app.UseStaticFiles();
-
+            app.UseSession();   
             app.UseMvc();
-            app.UseSession();
+
         }
     }
 }

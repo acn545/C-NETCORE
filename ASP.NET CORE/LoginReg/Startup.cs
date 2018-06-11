@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace QuotingDojo
+namespace LoginReg
 {
     public class Startup
     {
@@ -21,8 +21,8 @@ namespace QuotingDojo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
             services.AddSession();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,9 +38,9 @@ namespace QuotingDojo
             }
 
             app.UseStaticFiles();
-
-            app.UseMvc();
             app.UseSession();
+            app.UseMvc();
+            
         }
     }
 }

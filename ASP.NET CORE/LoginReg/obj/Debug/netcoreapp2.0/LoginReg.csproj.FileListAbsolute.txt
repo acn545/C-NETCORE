@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\bin\Debug\netcoreapp2.0\LoginReg.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\bin\Debug\netcoreapp2.0\LoginReg.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\bin\Debug\netcoreapp2.0\LoginReg.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\bin\Debug\netcoreapp2.0\LoginReg.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\bin\Debug\netcoreapp2.0\LoginReg.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\obj\Debug\netcoreapp2.0\LoginReg.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\obj\Debug\netcoreapp2.0\LoginReg.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\obj\Debug\netcoreapp2.0\LoginReg.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\obj\Debug\netcoreapp2.0\LoginReg.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LoginReg\obj\Debug\netcoreapp2.0\LoginReg.pdb
