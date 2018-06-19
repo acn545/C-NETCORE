@@ -1,0 +1,32 @@
+@model TheWall2.Models.CreateComment
+
+
+@{ 
+    foreach(var message in ViewBag.messages){
+        <div class="forms">
+        <h4>message by @message["first_name"]  @message["last_name"] at @message["created_at"] @message["id"]</h4>
+        <p> @message["message"]</p>
+        <h4> Add comment</h4>
+        
+
+        <span class="error" asp-validation-for="comment"></span>
+        <form  asp-controller="Wall" asp-action="CreateComment" class="comments" method="post">
+            <label asp-for="comment">Enter a new comment below</label>
+            <textarea asp-for="comment" cols="55" rows="2"></textarea>
+            <input type="hidden" value="@message["id"]" asp-for="message_id">
+            <button type="submit">Create Comment</button>
+        </form>
+
+
+        @foreach(var comment in ViewBag.comments){
+            if(message["id"] == comment["message_id"]){
+                <div class="comments">
+                <h5> Comment from @comment["first_name"] @comment["last_name"] at @comment["created_at"]</h5>
+                <p> @comment["comment"]</p>
+                </div>
+            }
+        }
+        </div>
+        
+    }
+}

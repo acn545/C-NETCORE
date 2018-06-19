@@ -1,0 +1,37 @@
+@model TheWall2.Models.RegisterUser
+
+<div class="form">
+<h2>Registration Form</h2>
+<form asp-controller="Wall" asp-action="RegisterUser" method="post">
+        
+        <span class="error" asp-validation-for="first_name"></span>
+        <span class="error" asp-validation-for="last_name"></span>
+        <span class="error" asp-validation-for="email"></span>
+        <span class="error" asp-validation-for="password"></span>
+        <span class="error" asp-validation-for="confirm_password"></span>
+        <span class="error">@ViewBag.error</span>
+    <table>
+        <tr>
+            <td><label asp-for="first_name">First Name: </label></td>
+            <td><input asp-for="first_name"></td>
+        </tr>
+        <tr>
+            <td><label asp-for="last_name">Last Name: </label></td>
+            <td><input asp-for="last_name"></td>
+        </tr>
+        <tr>
+            <td><label asp-for="email">Email: </label></td>
+            <td><input asp-for="email"></td>
+        </tr>
+        <tr>
+            <td><label asp-for="password">Password: </label></td>
+            <td><input asp-for="password"></td>
+        </tr>
+        <tr>
+            <td><label asp-for="confirm_password">Confirm Password: </label></td>
+            <td><input asp-for="confirm_password"></td>
+        </tr>
+    </table>
+    <button type="submit">Submit</button>
+</form>
+</div>

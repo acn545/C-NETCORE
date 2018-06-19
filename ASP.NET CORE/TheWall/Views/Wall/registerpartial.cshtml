@@ -1,0 +1,22 @@
+@model TheWall.Models.RegisterViewModel
+<div class='form'>
+    <h3> Register </h3>
+    <form asp-controller="Wall" asp-action="CreateUser" method="post">
+        <span asp-validation-for="first_name"></span>
+        <label asp-for="first_name">First Name: </label>
+        <input asp-for="first_name">
+        <span asp-validation-for="last_name"></span>
+        <label asp-for="last_name">Lase Name: </label>
+        <input asp-for="last_name">
+        <span asp-validation-for="email"></span>
+        <label asp-for="email">Email Address: </label>
+        <input asp-for="email">
+        <span asp-validation-for="password"></span>
+        <label asp-for="password">Password: </label>
+        <input asp-for="password">
+        <span asp-validation-for="cpassword"></span>
+        <label asp-for="cpassword">Confirm Password: </label>
+        <input asp-for="cpassword">
+        <button type="submit">Register</button>
+    </form>
+</div>

@@ -45,6 +45,7 @@ public class login : BaseEntity{
 public class messages{
     [Required]
     [DataType(DataType.MultilineText)]
+    [MinLength(2)]
     public string message{get;set;}
 }
 

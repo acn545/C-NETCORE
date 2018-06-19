@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\bin\Debug\netcoreapp2.0\pokiapi.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\bin\Debug\netcoreapp2.0\pokiapi.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\bin\Debug\netcoreapp2.0\pokiapi.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\bin\Debug\netcoreapp2.0\pokiapi.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\bin\Debug\netcoreapp2.0\pokiapi.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\obj\Debug\netcoreapp2.0\pokiapi.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\obj\Debug\netcoreapp2.0\pokiapi.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\obj\Debug\netcoreapp2.0\pokiapi.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\obj\Debug\netcoreapp2.0\pokiapi.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\pokiapi\obj\Debug\netcoreapp2.0\pokiapi.pdb

@@ -1,45 +1,58 @@
+<link rel="stylesheet" href="~/css/wall.css" />
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
+<script>
+    $(function(){
+        $(".comments").hide();
+        $(document).on("click", "button",  function(){
+            $(".comments").toggle();
+        });
+    });
+</script>
 <h1> Hello @ViewBag.name</h1>
 <p> your email is @ViewBag.email</p>
 
 @model TheWall.Models.messages
-<div class="form">
+<div>
 <form asp-controller="Wall" asp-action="CreateMessage" method="post">
+    <span asp-validation-for="message"></span>
     <label asp-for="message">Create a new message</label>
     <input asp-for="message">
-    <button type="submit">Add Message</button>
+    <input type="submit" value="Add Message">
 </form>
 </div>
 <div id="messages">
     
 @foreach(var message in ViewBag.messages)
 {
-    <p>  @message["message"] </p>
+    <h4 class="message">  @message["message"] </h4>
     foreach(var user in ViewBag.users){
         if(@user["id"] == @message["user_id"] ){
+            <div class="message_info">
             <p> Posted By: @user["first_name"] @user["last_name"]</p>
             <p> Posted at @message["created_at"]</p>
+            <button id="click"> show comments</button>
+            </div>
         }
     foreach(var comment in ViewBag.comments){
         if(@comment["message_id"] == @message["id"]){
            if(@user["id"] == @comment["user_id"] ){
-                <p>_____________________________________________</p>
-            <p> @comment["comment"]</p>
+            <div class="comments">
+            <p class="comment"> @comment["comment"]</p>
             <p> Posted By: @user["first_name"] @user["last_name"]</p>
             <p> Posted at: @comment["created_at"]</p>
+            </div>
         }
            
         }
     }
     }
-    <p>________________________________</p>
-    <div class="form">
+ <div >
     <form  action="CreateComment" method="post">
         <label for="comment">Add a Comment: </label>
         <input type="text" for="comment" name="comment">
         <input type="hidden" value="@message["id"]" name="id">
-        
-        <button type="submit">Add Comment</button>
+        <input type="submit" value="Add Comment">
     </form>
 </div>
 }

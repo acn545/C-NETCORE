@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\obj\Debug\netcoreapp2.0\TheWall2.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\obj\Debug\netcoreapp2.0\TheWall2.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\obj\Debug\netcoreapp2.0\TheWall2.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\bin\Debug\netcoreapp2.0\TheWall2.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\bin\Debug\netcoreapp2.0\TheWall2.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\bin\Debug\netcoreapp2.0\TheWall2.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\bin\Debug\netcoreapp2.0\TheWall2.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\bin\Debug\netcoreapp2.0\TheWall2.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\obj\Debug\netcoreapp2.0\TheWall2.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\TheWall2\obj\Debug\netcoreapp2.0\TheWall2.pdb

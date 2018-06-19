@@ -79,18 +79,21 @@ namespace TheWall.Controllers
         }
         [HttpPost("CreateMessage")]
         public IActionResult CreateMessage(messages msg){
-            DateTime time = DateTime.Now;
-            string dt = time.ToString("yyyy-MM-dd H:mm:ss");
-            List<Dictionary<string, object>> user = DbConnector.Query($"SELECT id,first_name, last_name FROM users WHERE email ='{HttpContext.Session.GetString("email")}'");
-            string sql = $"INSERT INTO messages(message, user_id, created_at, updated_at) VALUES('{msg.message}','{user[0]["id"]}', '{dt}', '{dt}' )";
-            DbConnector.Execute(sql);
-            return RedirectToAction("dashboard");
+            if(ModelState.IsValid){
+                DateTime time = DateTime.Now;
+                string dt = time.ToString("yyyy-MM-dd H:mm:ss");
+                List<Dictionary<string, object>> user = DbConnector.Query($"SELECT id,first_name, last_name FROM users WHERE email ='{HttpContext.Session.GetString("email")}'");
+                string sql = $"INSERT INTO messages(message, user_id, created_at, updated_at) VALUES('{msg.message}','{user[0]["id"]}', '{dt}', '{dt}' )";
+                DbConnector.Execute(sql);
+                return RedirectToAction("dashboard");
+            }else{
+                 return RedirectToAction("dashboard");
+            }
         }
         [HttpPost("CreateComment")]
         public IActionResult CreateComment(string comment, string id){
             DateTime time = DateTime.Now;
             string dt = time.ToString("yyyy-MM-dd H:mm:ss");
-            Console.WriteLine(id);
             int ids = int.Parse(id);
             List<Dictionary<string, object>> user = DbConnector.Query($"SELECT id,first_name, last_name FROM users WHERE email ='{HttpContext.Session.GetString("email")}'");
             string sql = $"INSERT INTO comments(comment, user_id, message_id, created_at, updated_at) VALUES('{comment}','{user[0]["id"]}','{ids}' ,'{dt}', '{dt}' )";
