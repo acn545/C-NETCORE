@@ -20,14 +20,14 @@ namespace thewall2.Controllers
         [HttpPost("RegisterUser")]
         public IActionResult RegisterUser(RegisterUser user){
             List<Dictionary<string, object>> users = DbConnector.Query($"SELECT * FROM users WHERE email = '{user.email}'");
-            string usert = (string)users[0]["email"];
             // converts all strings to lowercase, then compairs the new user email to any user in the database, if they exsist this returns an error.
-            if(usert.ToLower() == user.email.ToLower()){
-                ModelState.AddModelError("EmailTaken", "The Email address has already been used");
-                ViewBag.error = "The Email address has already been used";
-                return View("Index");
-            }
             if(ModelState.IsValid){
+                string usert = (string)users[0]["email"];
+                if(usert.ToLower() == user.email.ToLower()){
+                    ModelState.AddModelError("EmailTaken", "The Email address has already been used");
+                    ViewBag.error = "The Email address has already been used";
+                    return View("Index");
+                }
                 PasswordHasher<RegisterUser> hasher = new PasswordHasher<RegisterUser>();
                 string hashedPassword = hasher.HashPassword(user, user.password);
                 string sql = $"INSERT INTO users(first_name, last_name, email, password, created_at, updated_at)VALUES('{user.first_name}','{user.last_name}', '{user.email}','{hashedPassword}',NOW(), NOW() )";
