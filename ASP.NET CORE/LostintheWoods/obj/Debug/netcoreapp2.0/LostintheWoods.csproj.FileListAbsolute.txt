@@ -1,0 +1,10 @@
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\bin\Debug\netcoreapp2.0\LostintheWoods.deps.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\bin\Debug\netcoreapp2.0\LostintheWoods.runtimeconfig.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\bin\Debug\netcoreapp2.0\LostintheWoods.runtimeconfig.dev.json
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\bin\Debug\netcoreapp2.0\LostintheWoods.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\bin\Debug\netcoreapp2.0\LostintheWoods.pdb
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\obj\Debug\netcoreapp2.0\LostintheWoods.csproj.CoreCompileInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\obj\Debug\netcoreapp2.0\LostintheWoods.AssemblyInfoInputs.cache
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\obj\Debug\netcoreapp2.0\LostintheWoods.AssemblyInfo.cs
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\obj\Debug\netcoreapp2.0\LostintheWoods.dll
+c:\Users\antho\Documents\C#NETCORE\ASP.NET CORE\LostintheWoods\obj\Debug\netcoreapp2.0\LostintheWoods.pdb
